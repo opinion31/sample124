@@ -1,0 +1,43 @@
+.nav-container {
+  .nav-inner {
+    position: relative;
+    .left-area {
+      display: flex;
+      flex-direction: column;
+      width: 80px;
+      height: 100vh;
+      left: 0px;
+      top: 65.57px;
+      background: #202e56;
+
+      .icon-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        left: 80px;
+        top: 0px;
+        background: #ffbd00;
+
+        .icon {
+          width: 36px;
+          height: 37.16px;
+          left: 21px;
+          top: 14.21px;
+        }
+      }
+
+      .nav-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          padding: 45px 20px;
+        }
+      }
+    }
+  }
+}
